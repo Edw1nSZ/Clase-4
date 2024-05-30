@@ -16,14 +16,13 @@ public class Main {
         ArrayList<Animal> animales = new ArrayList<>();
         animales.add(gatoUno);
         animales.add(PerroUno);
-
+        //for para los animales que mostrarn el mensaje de los que estan comiendo
         for(Animal a : animales){
             System.out.println(a.getNombre());
             a.comer(2);
             a.comer();
         }
 
-        //**
 
 
 
